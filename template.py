@@ -3,7 +3,7 @@ from pathlib import Path
 import logging
 
 
-logging.basicConfig(level=logging.INFO, format = '[%(asctime)] : %(messege)s: ')
+logging.basicConfig(level=logging.INFO, format = '[%(asctime)s] : %(message)s: ')
 
 projectName = "Textsummarizer"
 
@@ -20,7 +20,7 @@ list_Of_Files = [
     f"src/{projectName}/entity/__init__.py",
     f"src/{projectName}/constants/__init__.py",
     "config/config.yaml",
-    "prams.yaml",
+    "params.yaml",
     "app.py",
     "main.py",
     "Dockerfile",

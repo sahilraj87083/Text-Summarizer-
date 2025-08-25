@@ -1,7 +1,7 @@
 import setuptools
 
 with open ("README.md", "r", encoding="utf-8") as f:
-    long_discription = f.read()
+    long_description = f.read()
 
 
 __version__ = "0.0.0"
@@ -18,8 +18,8 @@ setuptools.setup(
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
     description="A small package for NLP app",
-    long_description=long_discription,
-    long_discription_content = "text/markdown",
+    long_description=long_description,
+    long_description_content_type =  "text/markdown",
     url = f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls = {
         "Bug Tracker" : f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
